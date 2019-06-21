@@ -3,7 +3,7 @@ package com.example.mockitoexample;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class SomeBusinessMockTest {
+public class SomeBusinessStubTest {
     @Test
     public void findTheGreatestFromAllDataTest(){
         SomeBusinessImpl someBusiness = new SomeBusinessImpl(new DataServiceStub());
